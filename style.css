@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 1.5rem;
+}
+
+.nav-link {
+    color: #878b8f;
+    font-weight: bold;
+    transform: translateX(73rem);
+}
+
+.bg-dark {
+    background-color: #343a40;
+    font-size: 15px;
+    height: 50px;
+}
+
+
+/* navbar ends */
+
+
+/* welcome content */
+
+.home {
+    background-color: #f8f9fa;
+    text-align: center;
+    height: 9rem;
+    filter: brightness(.8);
+    padding: 3rem 0px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 12px;
+}
+
+
+/* welcome ends */
+
+
+/* destinatios */
+
+.feature {
+    height: 250px;
+    width: 1200px;
+    margin-left: 10rem;
+    /* background-color: #f8f9fa; */
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    height: 250px;
+    width: 202px;
+    background-color: #f8f9fa;
+    margin: 15px 10px 10px 150px;
+    border: 1px solid #d8dadd;
+    border-radius: 2px;
+}
+
+h4 {
+    text-align: center;
+    margin: 1rem 0 1rem 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0px 5px 10px;
+}
+
+.box p {
+    font-size: 13px;
+    margin: 5px 0px 5px 10px;
+}
+
+.box a,
+.discover a {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    height: 150px;
+}
+
+button {
+    border: none;
+    background-color: #007bff;
+    margin: 5px 0px 5px 10px;
+    /* padding: 3px; */
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* destinations end */
+
+
+/* discover */
+
+.discover {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.discover p {
+    font-size: 13px;
+}
+
+
+/* discover ends */
+
+
+/* footer */
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+}
+
+
+/* footer ends */
+
+@media (max-width: 768px) {
+    .feature {
+        display: grid;
+        margin-left: 10px;
+    }
+    .discover {
+        margin-top: 40rem;
+    }
+}
